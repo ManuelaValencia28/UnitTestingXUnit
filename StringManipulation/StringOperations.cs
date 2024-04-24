@@ -106,4 +106,6 @@ namespace StringManipulation
         }
 
     }
+    //minimo un caso de prueba por cada uno de nuestros metodos con unit testing
+    //entregar un readmi con los casos de pruebas hechos.
 }

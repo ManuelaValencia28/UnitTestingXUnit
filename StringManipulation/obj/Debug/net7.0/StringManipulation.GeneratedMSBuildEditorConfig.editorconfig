@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StringManipulation
-build_property.ProjectDir = C:\Users\Usuario\Documents\BackEnd\CSharp\Basics\UnitTesting\curso-unit-testing-csharp\StringManipulation\
+build_property.ProjectDir = C:\Users\sebastian.perez\OneDrive - SoftwareOne\Documents\GitHub\UnitTestingXUnit\StringManipulation\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
