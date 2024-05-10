@@ -2,7 +2,7 @@ namespace StringManipulationTest.cs;
 
 public class UnitTest1
 {
-    [Fact]
+    [test]
     public void TestConcatenarString()
     {
         //arrange
@@ -16,7 +16,7 @@ public class UnitTest1
 
     }
 
-    [Fact]
+    [test]
     public void TestReverseString()
     {
         //arrange
@@ -29,7 +29,7 @@ public class UnitTest1
         Assert.Equal("aleunaM",resultado)
     }
 
-    [Fact]
+    [test]
     public void TestGetStringLength()
     {
         //arrange
@@ -42,7 +42,7 @@ public class UnitTest1
         Assert.Equal(7,resultado);
     }
 
-    [Fact]
+    [test]
     public void TestRemoveWhitespace()
     {
         //arrange
@@ -55,7 +55,7 @@ public class UnitTest1
         Assert.Equal("ManuelaSebastian",resultado);
     }
 
-    [Fact]
+    [test]
     public void TestTruncateString()
     {
         //arrange
@@ -68,7 +68,7 @@ public class UnitTest1
         Assert.Equal("Manu",resultado);
     }
 
-    [Fact]
+    [test]
     public void TestIsPalindrome_True()
     {
         //arrange
@@ -81,7 +81,7 @@ public class UnitTest1
         Assert.True(resultado);
     }
 
-    [Fact]
+    [test]
     public void TestIsPalindrome_False()
     {
         // Arrange
@@ -94,7 +94,7 @@ public class UnitTest1
         Assert.False(resultado);
     }
 
-    [Fact]
+    [test]
     public void TestCountOcurrences()
     {
         // Arrange
@@ -107,7 +107,7 @@ public class UnitTest1
             Assert.Equal(2, resultado);
     }
 
-    [Fact]
+    [test]
     public void TestPluralize()
     {
         // Arrange
@@ -120,7 +120,7 @@ public class UnitTest1
     Assert.Contains("manzanas", resultado);
     }
 
-    [Fact]
+    [test]
     public void TestQuantintyInWords()
     {
         // Arrange
@@ -133,7 +133,7 @@ public class UnitTest1
         Assert.Contains("tres", resultado);
         Assert.Contains("personas", resultado); 
     }
-    [Fact]
+    [test]
     public void TestFromRomanToNumber()
     {
         // Arrange
@@ -145,7 +145,7 @@ public class UnitTest1
         // Assert
         Assert.True(result == 13);
     }
-    [Fact]
+    [test]
     public void TestReadFile()
     {
         // Arrange

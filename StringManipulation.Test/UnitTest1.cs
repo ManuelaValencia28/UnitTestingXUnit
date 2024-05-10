@@ -2,7 +2,7 @@ namespace StringManipulation.Test;
 
 public class UnitTest1
 {
-    [Fact]
+    [test]
     public void Test1()
     {
 
